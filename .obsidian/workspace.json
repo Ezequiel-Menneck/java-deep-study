@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Roadmap Java - Estudos.md",
+                "file": "Java/Concurrency and Parallelism/Executors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap Java - Estudos"
+              "title": "Executors"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Roadmap Java - Estudos.md",
+                "file": "Java/Concurrency and Parallelism/Executors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Roadmap Java - Estudos"
+              "title": "Backlinks for Executors"
             }
           },
           {
@@ -173,11 +173,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c209b0cddfb7a4d8",
+  "active": "aa3dd224a3bcae20",
   "lastOpenFiles": [
-    "Java/Concurrency and Parallelism/Fork - Join.md",
+    "java-lab/target/classes/org/cashly/Executors/EExecutors.class",
+    "java-lab/target/classes/org/cashly/Executors",
+    "java-lab/target/classes/org/cashly/Main.class",
+    "java-lab/target/classes/org/cashly/Threads/HelloTask.class",
+    "java-lab/target/classes/org/cashly/Threads/SynchronizedThreads/SyncDataThread.class",
+    "java-lab/target/classes/org/cashly/Threads/SynchronizedThreads/ReadDataThread.class",
+    "java-lab/target/classes/org/cashly/Threads/SynchronizedThreads/OnlineOfflineSystem.class",
+    "java-lab/target/classes/org/cashly/Threads/SynchronizedThreads/Data.class",
+    "java-lab/target/classes/org/cashly/Threads/SynchronizedThreads",
+    "java-lab/target/classes/org/cashly/Threads/VirtualThreads/VirtualThreads.class",
+    "java-lab/target/classes/org/cashly/Threads/VirtualThreads/VirtualThreadPool.class",
     "Java/Roadmap Java - Estudos.md",
-    "Java/Concurrency and Parallelism/Untitled",
+    "Java/Concurrency and Parallelism/Fork - Join.md",
     "Java/Concurrency and Parallelism/Executors.md",
     "Oracle.md"
   ]
