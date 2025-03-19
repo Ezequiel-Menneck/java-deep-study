@@ -1,0 +1,20 @@
+- **JVM Internals** ✅
+    - [[Garbage Collector (G1, ZGC)]] (G1, ZGC, Shenandoah) ✅
+    - [[Class Loaders]] ✅
+- **Concorrência e Paralelismo**
+    - [[Threads]]
+        - [[Executors]]
+        - Fork/Join
+    - [[Virtual Threads]]
+    - Programação Reativa com Project Reactor
+- **Design Patterns e Arquitetura**
+    - Hexagonal Architecture
+    - DDD (Domain-Driven Design)
+    - Event Sourcing e CQRS
+- **Streams API e Functional Programming**
+    - Collectors avançados
+    - Custom Spliterator
+    - Lambda Performance
+- **Modularização com Java 9+**
+    - JPMS (Java Platform Module System)
+    - Encapsulamento forte e módulos customizados
