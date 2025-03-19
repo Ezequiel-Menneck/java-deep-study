@@ -81,5 +81,33 @@ try {
 	executorService.shutdownNot();
 }
 ```
-Com essa abordagem o *ExecutorService* irá primeiro parar de pegar novas tasks para serem executadas e então esperar um período específico para todas as tasks serem completadas. Se o tempo expirar a execução é parada imeditamente.
+Com essa abordagem o *ExecutorService* irá primeiro parar de pegar novas tasks para serem executadas e então esperar um período específico para todas as tasks serem completadas. Se o tempo expirar a execução é parada imediatamente.
+
+## Future Interface
+Os métodos **submit() e invokeAll()** nos retornam um objeto ou uma coleção do tipo Future, o qual nos permite verificar o resultado da execução da task ou checar o status da task (se estiver em execução).
+
+A interface Future nos prove um método especial de bloquear, **get()**, o qual retorna o estado atual da *Callable* task em execução ou null se for uma *Runnable task*:
+```java
+Future<String> future = executorService.submit(callableTask);
+String result = null;
+try {
+	result = future.get();
+} catch (InterruptedException | ExecutionException e) {
+	e.printStackTrace();
+}
+```
+Utilizando o método *get()* enquanto a task continua em processando fara com que a execução seja bloqueada até que a tarefa seja executada corretamente e o resultado esteja disponível.
+Com tempos de bloqueio muito altos causados pelo método *get()* a performance da aplicação pode cair. Se o resultado desse dado não é crucial, podemos evitar esse problema usando timeouts:
+```java
+String result = future.get(200, TimeUnit.MILLISECONDS);
+```
+Se o tempo de execução for maior que o especificado (200ms nesse caso), uma exceção de TimeoutException será lançada.
+
+Podemos utilizar o método *isDone()* para verificar se a task atribuída já foi processada ou não.
+
+A interface Future também prove um método para cancelarmos a execução de uma task com *cancel()* e verificar se ja foi cancelada com o método *isCancelled()*.
+```java
+boolean canceled = future.cancel(true);
+boolean isCanceled = future.isCancelled();
+```
 

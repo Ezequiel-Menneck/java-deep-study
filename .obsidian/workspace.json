@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d80c4cae698be2b0",
@@ -173,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47169a5370a06f4a",
+  "active": "c209b0cddfb7a4d8",
   "lastOpenFiles": [
     "Oracle.md",
     "Java/Concurrency and Parallelism/Executors.md",
