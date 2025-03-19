@@ -3,10 +3,8 @@
     - [[Class Loaders]] ✅
 - **Concorrência e Paralelismo**
     - [[Threads]]
-        - [[Executors]]
-        - Fork/Join
+    - [[Executors]]
     - [[Virtual Threads]]
-    - Programação Reativa com Project Reactor
 - **Design Patterns e Arquitetura**
     - Hexagonal Architecture
     - DDD (Domain-Driven Design)

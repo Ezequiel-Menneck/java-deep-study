@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Concurrency and Parallelism/Executors.md",
+                "file": "Java/Roadmap Java - Estudos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Executors"
+              "title": "Roadmap Java - Estudos"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d80c4cae698be2b0",
@@ -176,8 +175,10 @@
   },
   "active": "c209b0cddfb7a4d8",
   "lastOpenFiles": [
-    "Oracle.md",
+    "Java/Concurrency and Parallelism/Fork - Join.md",
+    "Java/Roadmap Java - Estudos.md",
+    "Java/Concurrency and Parallelism/Untitled",
     "Java/Concurrency and Parallelism/Executors.md",
-    "Java/Roadmap Java - Estudos.md"
+    "Oracle.md"
   ]
 }
